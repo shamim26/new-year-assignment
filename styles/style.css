@@ -3,6 +3,42 @@
     padding: 0;
     font-family: 'Work Sans', sans-serif;
 }
+/* main styles */
+main{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.btn-primary{
+    cursor: pointer;
+    color: white;
+    background: #F15B22;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    padding: 20px 25px;
+}
+.btn-secondary{
+    cursor: pointer;
+    color: #F15B22;
+    background: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px 35px;
+}
+/* section title and description */
+.section-title{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+.section-description{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
 /* banner styles */
 header{
     background-image: url(../images/banner/banner2.png);
@@ -13,7 +49,6 @@ header{
     position: relative;
 }
 .banner{
-    
     position: absolute;
     top: 210px;
     left: 845px;
@@ -31,48 +66,34 @@ header{
     font-weight: 400;  
     margin-bottom: 32px;
 }
-.btn-primary{
-    cursor: pointer;
-    color: white;
-    background: #F15B22;
-    font-size: 20px;
-    font-weight: 600;
-    border: none;
-    border-radius: 5px;
-    padding: 20px 25px;
-}
-/* main styles */
-main{
-    max-width: 1170px;
-    margin: 0 auto;
-}
 /* failure section styles */
 .failures{
     display: flex;
     gap: 85px;
     margin-top: 130px;
 }
-.failure-img{
-}
 .failure-text{
     margin-top: 260px;
-}
-.failure-title{
-    font-size: 40px;
-    font-weight: 700;
-    margin-bottom: 24px;
-}
-.failure-description{
-    font-size: 16px;
-    font-weight: 400;
-    margin-bottom: 16px;
 }
 .lists{
     font-size: 16px;
 }
 .lists img{
-   padding-right: 10px;
-    
+    vertical-align: top;
+    padding-right: 10px;
+}
+/* bonus section styles */
+.bonus{
+    display: flex;
+    gap: 85px;
+    margin-top: 130px;
+}
+.bonus-texts{
+    margin: 140px 120px 0 0;
+}
+.bonus img{
+    vertical-align: top;
+    padding-right: 10px;
 }
 /* plans section styles */
 .plan{
@@ -100,14 +121,13 @@ main{
 }
 /* gradient section style */
 .gradient{
-    background-image: url(../images/watch.png), url(../images/gradient3.png);
+    background-image: url(../images/watch.png), url(../images/gradient2.png);
     background-size: cover;
     background-blend-mode: overlay;
     background-repeat: no-repeat;
     border-radius: 8px;
     margin-top: 125px;
     padding: 50px 600px 50px 60px;
-
 }
 .gradient-title{
     color:white;
@@ -115,18 +135,7 @@ main{
     font-weight: 700;
     margin-bottom: 25px;
 }
-.btn-secondary{
-    color: #F15B22;
-    background: white;
-    border: none;
-    border-radius: 5px;
-    font-size: 20px;
-    font-weight: 600;
-    padding: 20px 35px;
-}
-/* footer styles */
-
-/* Future section */
+    /* footer styles */
 .footer{
     color: white;
     background: black;
@@ -135,30 +144,31 @@ main{
     margin-top: 130px;
     padding: 130px 230px;
 }
+    /* Future section */
 .future .future-title{
     font-size: 40px;
     font-weight: 700px;
     margin-bottom: 15px;
 }
-.future p, img{
+.future p{
     margin-bottom: 15px;
 }
 .future a{
+    text-decoration: none;
     margin-right: 10px;
 }
-/* subscribe section */
+    /* subscribe section */
 .subscribe-title{
     font-size: 25px;
     font-weight: 600px;
     margin-bottom: 30px;
 }
 .email-input{
-    outline: 1px;
+    outline: none;
     border-color: white;
     color: white;
     border-radius: 10px;
     background: black;
     padding: 20px 150px 20px 20px;
     margin-bottom: 30px;
-
 }
